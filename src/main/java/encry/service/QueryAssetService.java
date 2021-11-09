@@ -1,5 +1,6 @@
 package encry.service;
 
+import encry.entity.OpenEntity;
 import encry.entity.OpenResult;
 
 /**
@@ -9,5 +10,5 @@ import encry.entity.OpenResult;
  * @Description
  */
 public interface QueryAssetService {
-    OpenResult queryAssets(String keyStr,String privateKey,String url);
+    OpenResult queryAssets(OpenEntity openEntity);
 }
